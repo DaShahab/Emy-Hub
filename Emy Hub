@@ -30,7 +30,7 @@ local Button = Tab:CreateButton({
 })
 
 local Button = Tab:CreateButton({
-	Name = "Simple OP DaHood",Callback = function()
+	Name = "SwagMode Hub Dahood",Callback = function()
 		-- The function that takes place when the button is pressed
 		loadstring(game:HttpGet('https://raw.githubusercontent.com/lerkermer/lua-projects/master/SwagModeV002%27', true)) ()
 		
