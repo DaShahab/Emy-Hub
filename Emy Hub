@@ -29,7 +29,13 @@ local Button = Tab:CreateButton({
 	end,
 })
 
+local Button = Tab:CreateButton({
+	Name = "Simple OP DaHood",Callback = function()
+		-- The function that takes place when the button is pressed
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/lerkermer/lua-projects/master/SwagModeV002%27', true)) ()
+		
+	end,
+})
+
 
 local Paragraph = Tab:CreateParagraph({Title = "The most Cutiest Litter Girl", Content = "Emerald Hajatpour 24/May/2012 "})
-
-
