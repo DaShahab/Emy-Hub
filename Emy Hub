@@ -1,0 +1,35 @@
+local Rayfield = loadstring(game:HttpGet('https://raw.githubusercontent.com/shlexware/Rayfield/main/source'))()
+local Window = Rayfield:CreateWindow({Name = "Cutie Hub DaHood"})
+local Tab = Window:CreateTab("Emy The Killer(DaHood Premium)")
+local Section = Tab:CreateSection("Main Godly Section")
+Section:Set("God Killer Section for Savages People")
+Rayfield:Notify("Read it!!!","My Sister Emerald Hajatpour is the most beautiful girl alive on earth.",2963956040) -- (t,c,image)
+
+
+local Button = Tab:CreateButton({
+	Name = "V.G Hub DaHood",Callback = function()
+		-- The function that takes place when the button is pressed
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/1201for/V.G-Hub/main/V.Ghub'))()
+	end,
+})
+
+local Button = Tab:CreateButton({
+	Name = "Vertical Hub DaHood",Callback = function()
+		-- The function that takes place when the button is pressed
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/niqu1337/vertical/main/core/script.lua"))()
+
+	end,
+})
+
+local Button = Tab:CreateButton({
+	Name = "Simple OP DaHood",Callback = function()
+		-- The function that takes place when the button is pressed
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/jynzl/Da-Hood-Gui/main/Da%20Hood%20GUI', true))()
+		
+	end,
+})
+
+
+local Paragraph = Tab:CreateParagraph({Title = "The most Cutiest Litter Girl", Content = "Emerald Hajatpour 24/May/2012 "})
+
+
